@@ -18,7 +18,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-In your app-level **build.gradle** file, add the library dependency. Use the latest version: [[![](https://jitpack.io/v/hypersoftdev/MyTestingLibrary.svg)](https://jitpack.io/#hypersoftdev/MyTestingLibrary)
+In your app-level **build.gradle** file, add the library dependency. Use the latest version: [![](https://jitpack.io/v/hypersoftdev/MyTestingLibrary.svg)](https://jitpack.io/#hypersoftdev/MyTestingLibrary)
 
 
 Groovy Version
