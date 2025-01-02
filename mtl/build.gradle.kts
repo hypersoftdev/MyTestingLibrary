@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.jetbrains.kotlin.android)
     id("maven-publish")
 }
 
@@ -44,7 +44,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.hypersoftdev"
             artifactId = "mlt"
-            version = "1.0.2"
+            version = "v1.0.3"
 
             afterEvaluate {
                 from(components["release"])
