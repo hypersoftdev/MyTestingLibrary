@@ -42,9 +42,9 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            groupId = "com.orbitalsonic.mtl"
+            groupId = "com.github.hypersoftdev"
             artifactId = "mlt"
-            version = "1.0.1"
+            version = "1.0.2"
 
             afterEvaluate {
                 from(components["release"])
